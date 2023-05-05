@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<!-- Coding By CodingNepal - codingnepalweb.com -->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!----======== CSS ======== -->
+    <link rel="stylesheet" href="dist/css/signUp.css" />
+
+    <!----===== Iconscout CSS ===== -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" />
+
+    <title>Registrasi</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>Registrasi</header>
+
+      <form action="#" id="forms">
+        <div class="form first">
+          <div class="details personal">
+            <span class="title">Data Pribadi</span>
+
+            <div class="fields">
+              <div class="input-field">
+                <label>Nama Lengkap</label>
+                <input type="text" id="nama" placeholder="Masukkan nama lengkap" required />
+              </div>
+
+              <div class="input-field">
+                <label>Username</label>
+                <input type="text" id="nama" placeholder="Username" required />
+              </div>
+
+              <div class="input-field">
+                <label>Email</label>
+                <input type="text" id="email" placeholder="Masukkan email" required />
+              </div>
+
+              <div class="input-field">
+                <label>Nomor Hp</label>
+                <input type="number" id="nohp" placeholder="Masukkan Nomor Hp" required />
+              </div>
+
+              <div class="input-field">
+                <label>Password</label>
+                <input type="password" id="nama" placeholder="Password" required />
+              </div>
+
+              <div class="input-field">
+                <label>Ulangi Password</label>
+                <input type="password" id="nama" placeholder="Ulangi Password" required />
+              </div>
+
+              <div class="input-field">
+                <label id="jenis">Jenis Kelamin</label>
+                <select required>
+                  <option disabled selected>Pilih Jenis Kelamin</option>
+                  <option>Laki-Laki</option>
+                  <option>Perempuan</option>
+                </select>
+              </div>
+
+              <div class="input-field">
+                <label>Pekerjaan</label>
+                <input type="text" id="pekerjaan" placeholder="Masukkan Pekerjaan" required />
+              </div>
+
+              <div class="input-field">
+                <label id="jenis">Pendidikan Terakhir</label>
+                <select required>
+                  <option disabled selected>Pendidikan terakhir</option>
+                  <option>SMA/SMK/MA</option>
+                  <option>D3</option>
+                  <option>D4/S1</option>
+                  <option>S2</option>
+                </select>
+              </div>
+
+              <div class="input-field">
+                <label>Tanggal Lahir</label>
+                <input type="date" id="tgl" placeholder="Masukkan tanggal lahir" required />
+              </div>
+              <div class="input-field">
+                <label>NIK</label>
+                <input type="number" id="nik" placeholder="Masukkan tipe ID" required />
+              </div>
+
+              <div class="details address">
+                <span class="title">Detail Alamat</span>
+
+                <div class="fields">
+                  <div class="input-field">
+                    <label>Alamat</label>
+                    <input type="text" id="alamat" placeholder="Masukkan Alamat" required />
+                  </div>
+
+                  <div class="input-field">
+                    <label>RT/RW</label>
+                    <input type="text" id="rt" placeholder="RT/RW" required />
+                  </div>
+
+                  <div class="input-field">
+                    <label>Kecamatan</label>
+                    <input type="text" id="kec" placeholder="Kecamatan" required />
+                  </div>
+
+                  <div class="input-field">
+                    <label>Kab/Kota</label>
+                    <input type="text" id="kab" placeholder="Kab/Kota" required />
+                  </div>
+
+                  <div class="input-field">
+                    <label>Provinsi</label>
+                    <input type="text" id="prov" placeholder="Provinsi" required />
+                  </div>
+                </div>
+              </div>
+
+              <div class="details ID">
+                <span class="title">Riwayat Penyakit</span>
+
+                <div class="fields">
+                  <div class="input-field">
+                    <label>Riwayat Penyakit</label>
+                    <input type="text" id="penyakit1" placeholder="Riwayat penyakit" required />
+                  </div>
+
+                  <div class="input-field">
+                    <label>Riwayat Penyakit</label>
+                    <input type="text" id="penyakit2" placeholder="Riwayat Penyakit" required />
+                  </div>
+
+                  <div class="input-field">
+                    <label>Riwayat Penyakit</label>
+                    <input type="text" id="penyakit3" placeholder="Riwayat Penyakit" required />
+                  </div>
+                  <div class="input-field">
+                    <label>Riwayat Penyakit</label>
+                    <input type="text" id="penyakit1" placeholder="Riwayat penyakit" required />
+                  </div>
+                </div>
+              </div>
+
+              <div class="details ID">
+                <span class="title">Berkas Pendukung</span>
+
+                <div class="fields">
+                  <div class="input-field">
+                    <label>Surat Kesehatan</label>
+                    <input type="file" id="penyakit1" placeholder="Riwayat penyakit" required />
+                  </div>
+
+                  <div class="input-field">
+                    <label>Foto/Video Full Body</label>
+                    <input type="file" id="penyakit2" placeholder="Riwayat Penyakit" required />
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="buttons">
+              <button class="sumbit">
+                <span type="submit" id="submit" href="index.html">Submit</span>
+              </button>
+            </div>
+
+            <p>Or</p>
+            <div class="atau">
+              <a class="Or" href="/index.html">Sign In</a>
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+
+    <script src="dist/js/signUp.js"></script>
+  </body>
+</html>
